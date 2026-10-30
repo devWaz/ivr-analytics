@@ -1,0 +1,22 @@
+# Data files (Rule 5: Do not upload the data file)
+*.npz
+*.npy
+*.wav
+*.mp3
+
+# Output directories & artifacts
+ivr_outputs/
+*.png
+*.pdf
+
+# Python & Jupyter cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Environment & OS
+.DS_Store
+.env
+venv/
+.venv/
